@@ -6,10 +6,16 @@
     <title>Document</title>
 </head>
 <body>
+    h1>Đổi size </h1>
     <script>
         var a = 10;
         var b = 30;
         var c= a + b;
     </script>
+    
+    <p id="dm">JavaScript</p>
+
+    <button type="button" onclick="document.getElementById('dm').style.fontSize='40px'">Click </button>
+    
 </body>
 </html>
