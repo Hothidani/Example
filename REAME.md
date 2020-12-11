@@ -11,6 +11,7 @@
         var a = 10;
         var b = 30;
         var c= a + b;
+        var d = 100 + 300;
     </script>
     
     <p id="dm">JavaScript</p>
