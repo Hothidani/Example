@@ -6,7 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    h1>Đổi size </h1>
+    <p id="dm">JavaScript</p>
+    <h1>Đổi size </h1>
+    <button type="button" onclick="document.getElementById('dm').style.fontSize='40px'">Click </button>
     <script>
         var a = 10;
         var b = 30;
@@ -14,9 +16,9 @@
         var d = 100 + 300;
     </script>
     
-    <p id="dm">JavaScript</p>
+    
 
-    <button type="button" onclick="document.getElementById('dm').style.fontSize='40px'">Click </button>
+    
     
 </body>
 </html>
